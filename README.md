@@ -1,5 +1,4 @@
-![Logo](https://user-images.githubusercontent.com/34482689/76684786-d034fa00-6649-11ea-8854-d199397bacae.png)
-# AIAP Technical Assessment
+# AIAP #9 Technical Assessment
 ### Author: [Mengyong Lee](https://www.linkedin.com/in/mylee1/)
 
 ## 1.0 Introduction
