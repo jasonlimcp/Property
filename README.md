@@ -20,15 +20,13 @@ This is a jupyter notebook file outlining the data preparation and data explorat
 
 ### Instructions for Executing the Pipeline
 To execute the pipeline, simply type the following in command prompt:
-bash run.sh
+<br> bash run.sh
 
-## 3.0 Logical Flow for the Pipeline
+## Logical Flow for the Pipeline
 
-Exploratory Data Analysis can be found in file [eda.ipynb](eda.ipynb)
 
-## 3.0 Key Findings for the EDA
 
-**EDA Findings**
+## Key Findings for EDA
 
 1. Students who undergo tuition spend more hours per week studying than students who do not. It is unclear whether tuition time is included in the study hours attribute, however based on subsequent pairwise analysis, there is no strong correlation. Interestingly, students who take up tuition are more likely to have an Auditory learning style. Students who take tuition are also consistently scoring better in exams.
 2. Across both genders, students with no CCA overwhelmingly scored better in the Math exam. The difference is solely between having a CCA and not having one; there is no significant score difference between CCAs. There is also no significant disparity in CCA vs Exam performance between genders.
