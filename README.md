@@ -48,7 +48,7 @@ To execute the pipeline, simply type the following in command prompt:
 1. Remove the 'index' column; this is an artifact of the database structure that we will not be using.
 2. Perform data quality check on attributes (consistency of values)
 3. Check data type of each attribute. Convert to appropriate dtype as needed.
-4. Set the 'student_id' attribute, as dataframe index. <br> Our assumption for this action is that the student_id is a fully random element for each student and has no bearing on their final math score, hence will not be further analyzed on used for modelling. Prior to this, we will first check for duplicate rows.
+4. Set the 'student_id' attribute, as dataframe index.
 5. Check for null/missing values among attributes
 
 ## Feature Engineering
