@@ -2,26 +2,18 @@
 ### Jason Lim Chong Poh (cplim87@hotmail.com)
 
 ## Overview of Submitted Folder
-This project aims to predict the number of registered and guest users for an e-scooter rental services in a city in order to help with demand forecasting.The dataset used provides hourly values for the number of registered and guest users, and the features include the data and various weather parameters.
+The folder contains the following files:
+1. run.sh <br>
+This script installs the packages in 'requirements.txt', and executes both 'main.py' to perform data cleaning and modelling. <br>
 
-Data Time Range: 1 Jan 2011 to 31 Dec 2012<br>
+2. [requirement.txt](requirement.txt) <br>
+Lists all python packages necessary to run the script.<br>
 
-<center>
+3. [README.md](README.md) <br>
+Documentation for this project. <br>
 
-| Attribute | Description |   
-|--------|--------|
-| date | Date in YYYY-MM-DD. |
-| hr    |     Hour (0 to 23).    |
-| weather    | Description of the weather conditions for that hour.    |
-| temperature    | Description of the weather conditions for that hour.    |
-| feels-like-temperature    | Average temperature for that hour (Fahrenheit).    |
-| relative-humidity    | Average relative humidity for that hour. Measure of the amount of water in the air (%).  |
-| windspeed    | Average speed of wind for that hour.    |
-| psi    | Pollutant standard index. Measure of pollutants present in the air. (0 to 400).    |
-| guest-users    | Number of guest users using the rental e-scooters in that hour.    |
-| registered-users    | Number of registered users using the rental e-scooters in that hour.    |
-
-</center>
+4. [mlp/main.py](mlp/main.py) <br>
+This script runs the data cleaning and ML model modules.
 
 ## Instructions for Executing the Pipeline
 We will be spliting the dataset into train-test set on 1 September 2012, any date before will be training, any date after will be test set. <br>
