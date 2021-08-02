@@ -1,7 +1,7 @@
 ## AIAP #9 Technical Assessment
-### Candidate: Jason Lim Chong Poh (cplim87@hotmail.com)
+### Jason Lim Chong Poh (cplim87@hotmail.com)
 
-## 1.0 Introduction
+## Overview of Submitted Folder
 This project aims to predict the number of registered and guest users for an e-scooter rental services in a city in order to help with demand forecasting.The dataset used provides hourly values for the number of registered and guest users, and the features include the data and various weather parameters.
 
 Data Time Range: 1 Jan 2011 to 31 Dec 2012<br>
@@ -23,18 +23,22 @@ Data Time Range: 1 Jan 2011 to 31 Dec 2012<br>
 
 </center>
 
-## 2.0 Train-Test-Split
+## Instructions for Executing the Pipeline
 We will be spliting the dataset into train-test set on 1 September 2012, any date before will be training, any date after will be test set. <br>
 ![Logo](https://user-images.githubusercontent.com/34482689/76684815-070b1000-664a-11ea-9184-6a2f9b03ff82.PNG)
 <br>
 Train set: **1 Jan 2011 to 30 Aug 2012 (16 months)**<br>
 Test set: **1 Sep 2012 to 31 Dec 2012 (4 months)**
 
-## 3.0 Exploratory Data Analysis
+## 3.0 Logical Flow for the Pipeline
 
 Exploratory Data Analysis can be found in file [eda.ipynb](eda.ipynb)
 
-## 4.0 Performance Metrics
+## 3.0 Key Findingd for the EDA
+
+Exploratory Data Analysis can be found in file [eda.ipynb](eda.ipynb)
+
+## 4.0 Choice of ML Models and Evaluation
 In this notebook, we will be using **Mean Absolute Error (MAE)** as the performance metrics. MAE will be calculated seperately for both registered-user prediction and guest-user.
 
 ![Logo](https://user-images.githubusercontent.com/34482689/76684824-19854980-664a-11ea-9fcc-0068639aabb1.jpg)
