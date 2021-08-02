@@ -34,9 +34,15 @@ Test set: **1 Sep 2012 to 31 Dec 2012 (4 months)**
 
 Exploratory Data Analysis can be found in file [eda.ipynb](eda.ipynb)
 
-## 3.0 Key Findingd for the EDA
+## 3.0 Key Findings for the EDA
 
-Exploratory Data Analysis can be found in file [eda.ipynb](eda.ipynb)
+**EDA Findings**
+
+1. Students who undergo tuition spend more hours per week studying than students who do not. It is unclear whether tuition time is included in the study hours attribute, however based on subsequent pairwise analysis, there is no strong correlation. Interestingly, students who take up tuition are more likely to have an Auditory learning style. Students who take tuition are also consistently scoring better in exams.
+2. Across both genders, students with no CCA overwhelmingly scored better in the Math exam. The difference is solely between having a CCA and not having one; there is no significant score difference between CCAs. There is also no significant disparity in CCA vs Exam performance between genders.
+3. There does not appear to be any meaningful relation to how many classmates of the opposite gender a student has, to the amount of time a student spend studying Math. This is true for both Genders.
+4. While the vast majority of students get 8 hours of sleep, it appears that students who sleep fewer hours, from less than 7 to even 4 a night, have a lower attendance rate the fewer hours they sleep.
+5. A student's particular bag color does not appear to affect their final test score: it does seem however that having multiple bag colors might have a relationship. The reasons for this can only be speculated.
 
 ## 4.0 Choice of ML Models and Evaluation
 In this notebook, we will be using **Mean Absolute Error (MAE)** as the performance metrics. MAE will be calculated seperately for both registered-user prediction and guest-user.
