@@ -24,7 +24,7 @@ To execute the pipeline, simply type the following in command prompt:
 
 ## Logical Flow for the Pipeline
 
-
+![Flow](https://github.com/jasonlimcp/Projects/blob/main/model.PNG)
 
 ## Key Findings for EDA
 
