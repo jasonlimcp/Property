@@ -35,11 +35,16 @@ To execute the pipeline, simply type the following in command prompt:
 5. A student's particular bag color does not appear to affect their final test score: it does seem however that having multiple bag colors might have a relationship. The reasons for this can only be speculated.
 
 ## Choice of ML Models and Evaluation
-###Regression Models - 
+### Regression Models
+<br> The models used for regression are Logistic Regression, Lasso Regression,Ridge Regression,ElasticNet Regression. The rationale for using a variety of models is due to the low cost of running for this dataset, allowing selection based on best evaluation criteria.
+<br>Lasso regression is favored due as similar to Ridge, it penalizes absolute size of the regression coefficients, and is advantageous in this use case due to it being capable of improving the accuracy of the linear regression model.
+<br> Evaluation metrics used were Mean Absolute Error, Root Mean Squared Errow and R-squared. Using this metrics, Ridge Regression had the best overall performance with a 58.2% r-squard value, ie. being able to explain 58% of variablity in the exam result data.
 
-###Classification Models - 
+### Classification Models
+<br>In contrast to regression, classification does not work for all models. In this situation, we chose to use two models, Gradient boosting and a Stacked Classifier with Naive Bayes, KNN and Decision Tree classifiers.
+<br> The performance of these 2 models was poorer than for regression. The evaluation metrics we used was Precision, Recall and ultimately the F-score. In this regard, the Stacked ensemble classifier performed better, with a 0.55 weighted-avergage F-score.
 
-## Data Cleaning
+## Data Cleaning Process
 1. Remove the 'index' column; this is an artifact of the database structure that we will not be using.
 2. Perform data quality check on attributes (consistency of values)
 3. Check data type of each attribute. Convert to appropriate dtype as needed.
@@ -47,21 +52,14 @@ To execute the pipeline, simply type the following in command prompt:
 5. Check for null/missing values among attributes
 
 ## Feature Engineering
-4. Create 3 new columns: First is 'hours_rest' per student, based on sleep time and wake time. Remove 'sleep_time' and 'wake_time' as we will no longer need it these columns. Second and third column is number of student of the same and opposite gender, based on 'n_male' and 'n_female' columns'.
+<br> 4 new columns were created.
+1. 'hours_rest' per student, based on sleep time and wake time
+2. Number of student of same gender
+3. Number of students of opposite gender
+4. Binning of 'final_test' for classication.
 
+## Requirements
 
-
-
-
-
-
-## 9.0 Requirements
-
-**System:**<br>
-* Python 3.6.8 <br>
-* Jupyter Notebook
-
-**Python Libraries Required:**<br>
-* numpy==1.18.1
-* pandas==0.24.2
-* tensorflow==2.1.0
+pandas==1.1.3
+numpy==1.19.2
+scikit-learn==0.24.2
