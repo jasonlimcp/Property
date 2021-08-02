@@ -60,6 +60,6 @@ To execute the pipeline, simply type the following in command prompt:
 
 ## Requirements
 
-pandas==1.1.3
-numpy==1.19.2
-scikit-learn==0.24.2
+<br>pandas==1.1.3
+<br>numpy==1.19.2
+<br>scikit-learn==0.24.2
