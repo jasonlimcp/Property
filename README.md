@@ -6,21 +6,21 @@ The folder contains the following files:
 1. run.sh <br>
 This script installs the packages in 'requirements.txt', and executes both 'main.py' to perform data cleaning and modelling. <br>
 
-2. [requirement.txt](requirement.txt) <br>
+2. requirements.txt <br>
 Lists all python packages necessary to run the script.<br>
 
-3. [README.md](README.md) <br>
+3. README.md <br>
 Documentation for this project. <br>
 
-4. [mlp/main.py](mlp/main.py) <br>
-This script runs the data cleaning and ML model modules.
+4. src/main.py <br>
+This folder contains main.py, the script which runs the associated data cleaning and ML model modules in this folder.
 
-## Instructions for Executing the Pipeline
-We will be spliting the dataset into train-test set on 1 September 2012, any date before will be training, any date after will be test set. <br>
-![Logo](https://user-images.githubusercontent.com/34482689/76684815-070b1000-664a-11ea-9184-6a2f9b03ff82.PNG)
-<br>
-Train set: **1 Jan 2011 to 30 Aug 2012 (16 months)**<br>
-Test set: **1 Sep 2012 to 31 Dec 2012 (4 months)**
+5. eda.ipynb <br>
+This is a jupyter notebook file outlining the data preparation and data exploration process.
+
+### Instructions for Executing the Pipeline
+To execute the pipeline, simply type the following in command prompt:
+bash run.sh
 
 ## 3.0 Logical Flow for the Pipeline
 
