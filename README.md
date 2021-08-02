@@ -1,5 +1,5 @@
-# AIAP #9 Technical Assessment
-### Author: [Mengyong Lee](https://www.linkedin.com/in/mylee1/)
+## AIAP #9 Technical Assessment
+### Candidate: Jason Lim Chong Poh (cplim87@hotmail.com)
 
 ## 1.0 Introduction
 This project aims to predict the number of registered and guest users for an e-scooter rental services in a city in order to help with demand forecasting.The dataset used provides hourly values for the number of registered and guest users, and the features include the data and various weather parameters.
